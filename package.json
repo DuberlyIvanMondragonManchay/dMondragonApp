@@ -1,0 +1,26 @@
+{
+  "name": "dMondragonApp",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon src/index.js",
+    "start": "node src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DuberlyIvanMondragonManchay/dMondragonApp.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DuberlyIvanMondragonManchay/dMondragonApp/issues"
+  },
+  "homepage": "https://github.com/DuberlyIvanMondragonManchay/dMondragonApp#readme",
+  "dependencies": {
+    "express": "^4.19.2",
+    "morgan": "^1.10.0",
+    "nodemon": "^3.1.0"
+  }
+}
