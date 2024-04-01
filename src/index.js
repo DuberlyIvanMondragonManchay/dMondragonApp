@@ -12,4 +12,4 @@ app.get('/productos',(req,res)=>res.json([
     {id:2,name:"Gaseosa"},
     {id:3,name:"Hamburguesa"},
 ]))
-app.listen(5000,()=>console.log("Server on port 5000"))
+app.listen(5000,()=>console.log("Server running"))
