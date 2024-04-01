@@ -1,7 +1,9 @@
 const express = require("express")
+const morgan = require("morgan")
 
 const app = express()
-app.get('/',(req,res)=>res.json({message:"Ruta inicial"}))
+app.use(morgan("dev"))
+app.get('/',(req,res)=>res.json({message:"Ruta inicial",alumno:"Mondragón Manchay Duberly Ivan"}))
 app.get('/clientes',(req,res)=>res.json([
     {id:1,name:"Joe"},
     {id:2,name:"Juan"},
