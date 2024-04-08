@@ -3,7 +3,8 @@ const connectionOptions = {
     host: "localhost",
     port: 3306,
     database: "db_mondragon_app",
-    user: "root"
+    user: "root",
+    password:"duberly2004"
 };
 
 const pool = mysql.createPool(connectionOptions);
